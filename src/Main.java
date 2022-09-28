@@ -5,5 +5,6 @@ public class Main {
         myMonster.punched(20);
         System.out.print(myMonster.getName()+" now has "+myMonster.getHp()+" hp");
 
+        Visual vis= new Visual();
     }
 }

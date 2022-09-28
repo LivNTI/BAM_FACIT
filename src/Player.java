@@ -1,6 +1,6 @@
 public class Player {
-    String name;
-    int hp;
+    private String name;
+    private int hp;
 
     public Player(String name, int hp){
         this.name=name;
