@@ -25,7 +25,7 @@ public class Visual extends JPanel {
     }
 
     public static void createGraphics() {
-        //DoNotEnterSign panel = new DoNotEnterSign();
+        Visual panel = new Visual();
 
         JFrame frame = new JFrame("A simple graphics program");
         frame.setDefaultCloseOperation(3);
