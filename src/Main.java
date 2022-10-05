@@ -3,6 +3,7 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        System.out.println("hej");
         Monster myMonster = new Monster("baddy", 100);
         myMonster.punched(20);
         System.out.print(myMonster.getName() + " now has " + myMonster.getHp() + " hp");
@@ -14,6 +15,6 @@ public class Main {
         frame.getContentPane().add(myPanel);
         frame.pack();
         frame.setVisible(true);
-        
+
     }
 }
